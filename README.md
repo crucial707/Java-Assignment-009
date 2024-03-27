@@ -16,7 +16,7 @@
     * Why not?
 
 ```text
-ANSWER Why not? HERE
+The answers are no longer correct because the factorial of 15 is 1307674368000, which is larger than the maximum value of an integer (2^31 - 1 = 2147483647).
 ```
 
 3. Convert factorial so that it performs its calculation using **BigIntegers** and returns a **BigInteger** as a result.
@@ -26,7 +26,7 @@ ANSWER Why not? HERE
     * How high can you make it go?
 
 ```text
-ANSWER #4 HERE
+Yes, it is correct up to 30. The amount of numbers that can be calculated is limited by the amount of memory available.
 ```
 
 ## Submission

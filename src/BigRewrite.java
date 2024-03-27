@@ -1,21 +1,14 @@
-// Written by: Austin Barnett
+// Written By: Austin Barnett
 // Date: 3/27/2024
 // Version 1.0
-public class Big {
-    public static int pow(int x, int n) {
-        if (n == 0) return 1;
-        int t = pow(x, n / 2);
-        if (n % 2 == 0) {
-            return t * t;
-        } else {
-            return t * t * x;
-        }
-    }
 
-    public static int factorial(int n) {
-        int result = 1;
+import java.math.BigInteger;
+
+public class BigRewrite {
+    public static BigInteger factorial(int n) {
+        BigInteger result = BigInteger.ONE;
         for (int i = 2; i <= n; i++) {
-            result *= i;
+            result = result.multiply(BigInteger.valueOf(i));
         }
         return result;
     }
